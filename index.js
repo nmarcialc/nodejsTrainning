@@ -118,6 +118,7 @@ var actions = require('./lib/actions');
      console.log('purge database');
      break;
    case 'restore':
+    actions.restore(myArgs.key,myArgs.retailerId);
      console.log('restore database');
      break;
    default:
