@@ -1,4 +1,6 @@
-var config = require('./lib/backupConfig');
+
+var actions = require('./lib/actions');
+
  var myArgs  = require("yargs")
  .command(
      'backup',
@@ -108,6 +110,7 @@ var config = require('./lib/backupConfig');
  
  switch (myArgs._[0]) {
    case 'backup':
+       actions.backup(myArgs.key,myArgs.retailerId);
      console.log('create a backup');
      break;
    case 'purge':
@@ -122,6 +125,3 @@ var config = require('./lib/backupConfig');
      
  }
  
-config.forEach(function(entry) {
-    console.log(entry);
-});
