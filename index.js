@@ -114,6 +114,7 @@ var actions = require('./lib/actions');
      console.log('create a backup');
      break;
    case 'purge':
+    actions.purge(myArgs.key,myArgs.retailerId);
      console.log('purge database');
      break;
    case 'restore':
