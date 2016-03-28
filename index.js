@@ -100,7 +100,7 @@ var actions = require('./lib/actions');
      }
      
   )
-  .usage('describe funtions')
+ .usage('describe funtions')
  .help()
  .demand(1)
  .strict()

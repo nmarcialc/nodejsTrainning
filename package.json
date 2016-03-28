@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/nmarcialc/nodejsTrainning#readme",
   "dependencies": {
+    "fs": "0.0.2",
     "http": "0.0.0",
     "optimist": "^0.6.1",
     "querystring": "^0.2.0",
