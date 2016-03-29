@@ -1,5 +1,5 @@
 [
-    {"name":"appointmentBlocks","endpoint":"/bl-server/api/appointmentBlocks/laist","method":"POST"},
+    {"name":"appointmentBlocks","endpoint":"/bl-server/api/appointmentBlocks/list","method":"POST"},
     {"name":"appointmentRequests","endpoint":"/bl-server/api/appointmentRequests/list","method":"POST"},
     {"name":"appointmentTypes","endpoint":"/bl-server/api/appointmentTypes/list","method":"POST"},
     {"name":"appointments","endpoint":"/bl-server/api/appointments/list","method":"POST"},
@@ -59,6 +59,22 @@
     {"name":"interviewWidgetSettings","endpoint":"/bl-server/api/interviewWidgetSettings","method":"GET"},
     {"name":"lead2WidgetSettings","endpoint":"/bl-server/api/lead2WidgetSettings","method":"GET"},
     {"name":"leadWidgetSettings","endpoint":"/bl-server/api/leadWidgetSettings","method":"GET"},
-    {"name":"mailChimpSettings","endpoint":"/bl-server/api/mailChimpSettings","method":"GET"}
- 
+    {"name":"mailChimpSettings","endpoint":"/bl-server/api/mailChimpSettings","method":"GET"},
+    {"name":"roles","endpoint":"/bl-server/api/roles/list","method":"POST"},
+    {"name":"scheduleEntries","endpoint":"/bl-server/api/scheduleEntries/list","method":"POST"},
+    {"name":"setupItems","endpoint":"/bl-server/api/setupItems/list","method":"POST"},
+    {"name":"sizeGroups","endpoint":"/bl-server/api/sizeGroups/list","method":"POST"},
+    {"name":"sizes","endpoint":"/bl-server/api/sizes/list","method":"POST"},
+    {"name":"smartFlows","endpoint":"/bl-server/api/smartFlows/list","method":"POST"},
+    {"name":"sms","endpoint":"/bl-server/api/sms/list","method":"POST"},
+    {"name":"smsTemplates","endpoint":"/bl-server/api/smsTemplates/list","method":"POST"},
+    {"name":"taskTypes","endpoint":"/bl-server/api/taskTypes/list","method":"POST"},
+    {"name":"tasks","endpoint":"/bl-server/api/tasks/list","method":"POST"},
+    {"name":"taxCodes","endpoint":"/bl-server/api/taxCodes/list","method":"POST"},
+    {"name":"testimonialsWidgetSettings","endpoint":"/bl-server/api/testimonialsWidgetSettings","method":"GET"},
+    {"name":"timeOffEntries","endpoint":"/bl-server/api/timeOffEntries/list","method":"POST"},
+    {"name":"timePunches","endpoint":"/bl-server/api/timePunches/list","method":"POST"},
+    {"name":"twilioSettings","endpoint":"/bl-server/api/twilioSettings","method":"GET"},
+    {"name":"userPermissions","endpoint":"/bl-server/api/userPermissions/list","method":"POST"},
+    {"name":"vendors","endpoint":"/bl-server/api/vendors/list","method":"POST"}
 ]
