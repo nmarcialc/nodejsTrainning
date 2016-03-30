@@ -4,33 +4,33 @@ var actions = require('./lib/actions');
  var myArgs  = require("yargs")
  .command(
      'backup',
-     'generate backup from bridallive',
+     'generate backup from a BridalLive account',
      {
          host :{
              alias:'h',
              demand:true,
-             describe : 'Bridallive host',
+             describe : 'BridalLive host',
              type: 'string',
              requiresArg:true
          },
          key :{
              alias:'k',
              demand:true,
-             describe : 'Bridallive apip key from bridallive',
+             describe : 'BridalLive api key',
              type: 'string',
              requiresArg:true
          },
          retailerId :{
              alias:'r',
              demand:true,
-             describe : 'Bridallive retailer id',
+             describe : 'BridalLive retailer id',
              type: 'string',
              requiresArg:true
          },
          destination :{
              alias:'d',
              demand:true,
-             describe : 'Destination to save de backup',
+             describe : 'Destination folder to save the backup files',
              type: 'string',
              requiresArg:true
          }
@@ -39,26 +39,26 @@ var actions = require('./lib/actions');
   )
   .command(
      'purge',
-     'generate backup from bridallive',
+     'delete all data from a BridalLive account',
      {
          host :{
              alias:'h',
              demand:true,
-             describe : 'Bridallive host',
+             describe : 'BridalLive host',
              type: 'string',
              requiresArg:true
          },
          key :{
              alias:'k',
              demand:true,
-             describe : 'Bridallive apip key from bridallive',
+             describe : 'BridalLive api key',
              type: 'string',
              requiresArg:true
          },
          retailerId :{
              alias:'r',
              demand:true,
-             describe : 'Bridallive retailer id',
+             describe : 'BridalLive retailer id',
              type: 'string',
              requiresArg:true
          }
@@ -67,40 +67,40 @@ var actions = require('./lib/actions');
   )
   .command(
      'restore',
-     'restore backup to bridallive',
+     'restore backup to a BridalLive account',
      {
          host :{
              alias:'h',
              demand:true,
-             describe : 'Bridallive host',
+             describe : 'BridalLive host',
              type: 'string',
              requiresArg:true
          },
          key :{
              alias:'k',
              demand:true,
-             describe : 'Bridallive apip key from bridallive',
+             describe : 'BridalLive api key',
              type: 'string',
              requiresArg:true
          },
          retailerId :{
              alias:'r',
              demand:true,
-             describe : 'Bridallive retailer id',
+             describe : 'BridalLive retailer id',
              type: 'string',
              requiresArg:true
          },
          source :{
              alias:'s',
              demand:true,
-             describe : 'source folder',
+             describe : 'Source folder with the files to restore',
              type: 'string',
              requiresArg:true
          }
      }
      
   )
- .usage('describe funtions')
+ .usage('describe functions')
  .help()
  .demand(1)
  .strict()
@@ -110,15 +110,15 @@ var actions = require('./lib/actions');
  
  switch (myArgs._[0]) {
    case 'backup':
-       actions.backup(myArgs.key,myArgs.retailerId);
+       actions.backup(myArgs.host, myArgs.key, myArgs.retailerId, myArgs.destination);
      console.log('create a backup');
      break;
    case 'purge':
-    actions.purge(myArgs.key,myArgs.retailerId);
+    actions.purge(myArgs.host, myArgs.key, myArgs.retailerId);
      console.log('purge database');
      break;
    case 'restore':
-    actions.restore(myArgs.key,myArgs.retailerId);
+    actions.restore(myArgs.host, myArgs.key, myArgs.retailerId, myArgs.source);
      console.log('restore database');
      break;
    default:

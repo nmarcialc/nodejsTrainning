@@ -25,14 +25,14 @@
     "path": "^0.12.7",
     "querystring": "^0.2.0",
     "yargs": "^4.3.2"
-  }
+  },
   
-  {
-  "name": "instinct",
-  "version": "0.0.1",
-  "dependencies": {},
-  "scripts": {
-    "test": "make test"
+  "estaMarcandoError": {
+    "name": "instinct",
+    "version": "0.0.1",
+    "dependencies": {},
+    "scripts": {
+      "test": "make test"
+    }
   }
-}
 }
