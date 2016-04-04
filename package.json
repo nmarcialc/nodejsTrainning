@@ -4,7 +4,7 @@
   "description": "test nodejs ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+     "test": "mocha && mocha test --require config './package.json'  --require blanket --reporter spec > ./test/report-test.txt" 
   },
   "repository": {
     "type": "git",
@@ -18,6 +18,9 @@
   "homepage": "https://github.com/nmarcialc/nodejsTrainning#readme",
   "dependencies": {
     "chai": "^3.5.0",
+    "nconf": "^0.8.4",
+    "blanket": "^1.1.6",
+    "colors": "^1.1.2",
     "fs": "0.0.2",
     "http": "0.0.0",
     "mocha": "^2.4.5",
@@ -27,12 +30,19 @@
     "yargs": "^4.3.2"
   },
   
-  "estaMarcandoError": {
-    "name": "instinct",
-    "version": "0.0.1",
-    "dependencies": {},
-    "scripts": {
-      "test": "make test"
-    }
-  }
+  "config": {
+      "blanket": {
+        "pattern": [ "" ],
+        "data-cover-never": [ "node_modules", "tests" ]
+      }
+  },
+
+"test": {
+   "apiKey": "9d66895d22f7221e",
+    "host": "dev.bridallive.com",
+    "retailerId": "a86101e4",
+    "endPointLogin": "/bl-server/api/auth/appLogin",
+    "timeout": "10000"
+}
+  
 }
