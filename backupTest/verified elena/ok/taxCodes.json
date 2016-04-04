@@ -1,0 +1,27 @@
+[{
+    "id": 118,
+    "version": 0,
+    "retailerId": "ee0c75dc",
+    "createdDate": 1459362651000,
+    "createdByUser": "nosh",
+    "modifiedDate": null,
+    "modifiedByUser": null,
+    "description": "IVA",
+    "percent": 16,
+    "status": "A",
+    "default": false,
+    "inclusive": false
+}, {
+    "id": 117,
+    "version": 0,
+    "retailerId": "ee0c75dc",
+    "createdDate": 1459353698000,
+    "createdByUser": "",
+    "modifiedDate": null,
+    "modifiedByUser": null,
+    "description": "No Tax",
+    "percent": 0,
+    "status": "A",
+    "default": false,
+    "inclusive": false
+}]

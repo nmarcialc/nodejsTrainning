@@ -1,0 +1,23 @@
+[{
+    "id": 40,
+    "version": 0,
+    "retailerId": "ee0c75dc",
+    "createdDate": 1459372180000,
+    "createdByUser": "nosh",
+    "modifiedDate": null,
+    "modifiedByUser": null,
+    "vendorId": 57,
+    "name": "Pretty in pink",
+    "colorString": "White, Pastel pink, Magenta, Beige"
+}, {
+    "id": 41,
+    "version": 0,
+    "retailerId": "ee0c75dc",
+    "createdDate": 1459372246000,
+    "createdByUser": "nosh",
+    "modifiedDate": null,
+    "modifiedByUser": null,
+    "vendorId": 57,
+    "name": "Rainbow",
+    "colorString": "Purple, Blue, Cyan, Green, Yellow, Orange, Red"
+}]

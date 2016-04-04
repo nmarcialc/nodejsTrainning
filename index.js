@@ -110,7 +110,7 @@ var actions = require('./lib/actions');
  
  switch (myArgs._[0]) {
    case 'backup':
-       actions.backup(myArgs.host, myArgs.key, myArgs.retailerId, myArgs.destination);
+       actions.backup(myArgs.host, myArgs.key, myArgs.retailerId, formatPath(myArgs.destination));
      console.log('create a backup');
      break;
    case 'purge':
@@ -118,7 +118,7 @@ var actions = require('./lib/actions');
      console.log('purge database');
      break;
    case 'restore':
-    actions.restore(myArgs.host, myArgs.key, myArgs.retailerId, myArgs.source);
+    actions.restore(myArgs.host, myArgs.key, myArgs.retailerId, formatPath(myArgs.source));
      console.log('restore database');
      break;
    default:
@@ -127,3 +127,8 @@ var actions = require('./lib/actions');
      
  }
  
+function formatPath(path) {
+    if (!/\/\\/.test(path.slice(-1)))
+        path += '/';
+    return path;
+} 

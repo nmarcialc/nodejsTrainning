@@ -1,0 +1,111 @@
+[{
+    "id": 195,
+    "version": 1,
+    "retailerId": "ee0c75dc",
+    "createdDate": 1459353698000,
+    "createdByUser": "nosh",
+    "modifiedDate": null,
+    "modifiedByUser": null,
+    "blAccountName": "Merchandise Sales",
+    "qbAccountName": "Merchandise Sales",
+    "qbListId": null
+}, {
+    "id": 196,
+    "version": 1,
+    "retailerId": "ee0c75dc",
+    "createdDate": 1459353698000,
+    "createdByUser": "nosh",
+    "modifiedDate": null,
+    "modifiedByUser": null,
+    "blAccountName": "Sales Tax",
+    "qbAccountName": "Sales Tax Payable",
+    "qbListId": null
+}, {
+    "id": 197,
+    "version": 1,
+    "retailerId": "ee0c75dc",
+    "createdDate": 1459353698000,
+    "createdByUser": "nosh",
+    "modifiedDate": null,
+    "modifiedByUser": null,
+    "blAccountName": "Layaway/SO Deposit Taken",
+    "qbAccountName": "Unearned Revenue",
+    "qbListId": null
+}, {
+    "id": 198,
+    "version": 1,
+    "retailerId": "ee0c75dc",
+    "createdDate": 1459353698000,
+    "createdByUser": "nosh",
+    "modifiedDate": null,
+    "modifiedByUser": null,
+    "blAccountName": "Inventory",
+    "qbAccountName": "Inventory Asset",
+    "qbListId": null
+}, {
+    "id": 199,
+    "version": 1,
+    "retailerId": "ee0c75dc",
+    "createdDate": 1459353698000,
+    "createdByUser": "nosh",
+    "modifiedDate": null,
+    "modifiedByUser": null,
+    "blAccountName": "Cost of Goods Sold",
+    "qbAccountName": "Cost of Goods Sold",
+    "qbListId": null
+}, {
+    "id": 200,
+    "version": 1,
+    "retailerId": "ee0c75dc",
+    "createdDate": 1459353698000,
+    "createdByUser": "nosh",
+    "modifiedDate": null,
+    "modifiedByUser": null,
+    "blAccountName": "Voucher Adjustment",
+    "qbAccountName": "Vendor Discounts",
+    "qbListId": null
+}, {
+    "id": 201,
+    "version": 1,
+    "retailerId": "ee0c75dc",
+    "createdDate": 1459353698000,
+    "createdByUser": "nosh",
+    "modifiedDate": null,
+    "modifiedByUser": null,
+    "blAccountName": "Freight In",
+    "qbAccountName": "Purchasing Expense",
+    "qbListId": null
+}, {
+    "id": 202,
+    "version": 1,
+    "retailerId": "ee0c75dc",
+    "createdDate": 1459353698000,
+    "createdByUser": "nosh",
+    "modifiedDate": null,
+    "modifiedByUser": null,
+    "blAccountName": "Voucher Fee",
+    "qbAccountName": "Purchasing Expense",
+    "qbListId": null
+}, {
+    "id": 203,
+    "version": 1,
+    "retailerId": "ee0c75dc",
+    "createdDate": 1459353698000,
+    "createdByUser": "nosh",
+    "modifiedDate": null,
+    "modifiedByUser": null,
+    "blAccountName": "Sales Tax Vendor Name",
+    "qbAccountName": "",
+    "qbListId": null
+}, {
+    "id": 204,
+    "version": 1,
+    "retailerId": "ee0c75dc",
+    "createdDate": 1459353698000,
+    "createdByUser": "nosh",
+    "modifiedDate": null,
+    "modifiedByUser": null,
+    "blAccountName": "Receiving Item Name",
+    "qbAccountName": "BL Receiving",
+    "qbListId": null
+}]

@@ -1,0 +1,51 @@
+[{
+    "id": 399,
+    "version": 0,
+    "retailerId": "ee0c75dc",
+    "createdDate": 1459353698000,
+    "createdByUser": "",
+    "modifiedDate": null,
+    "modifiedByUser": null,
+    "description": "Cash",
+    "status": "A"
+}, {
+    "id": 400,
+    "version": 0,
+    "retailerId": "ee0c75dc",
+    "createdDate": 1459353698000,
+    "createdByUser": "",
+    "modifiedDate": null,
+    "modifiedByUser": null,
+    "description": "Visa",
+    "status": "A"
+}, {
+    "id": 401,
+    "version": 0,
+    "retailerId": "ee0c75dc",
+    "createdDate": 1459353698000,
+    "createdByUser": "",
+    "modifiedDate": null,
+    "modifiedByUser": null,
+    "description": "Mastercard",
+    "status": "A"
+}, {
+    "id": 402,
+    "version": 0,
+    "retailerId": "ee0c75dc",
+    "createdDate": 1459353698000,
+    "createdByUser": "",
+    "modifiedDate": null,
+    "modifiedByUser": null,
+    "description": "American Express",
+    "status": "A"
+}, {
+    "id": 404,
+    "version": 0,
+    "retailerId": "ee0c75dc",
+    "createdDate": 1459353698000,
+    "createdByUser": "",
+    "modifiedDate": null,
+    "modifiedByUser": null,
+    "description": "Check",
+    "status": "A"
+}]

@@ -1,0 +1,23 @@
+[{
+    "id": 136,
+    "version": 0,
+    "retailerId": "ee0c75dc",
+    "createdDate": 1459353698000,
+    "createdByUser": "",
+    "modifiedDate": null,
+    "modifiedByUser": null,
+    "name": "Appointment Confirmation",
+    "body": "Please confirm your appointment at [Company.name] on [Appointment.startDateFormatted] @ [Appointment.startTimeFormatted]. Reply: [TwilioSettings.confirmCancelOptions], [TwilioSettings.optOutOption]. Call to change [Company.phoneNumberFormatted]",
+    "status": "A"
+}, {
+    "id": 137,
+    "version": 0,
+    "retailerId": "ee0c75dc",
+    "createdDate": 1459353698000,
+    "createdByUser": "",
+    "modifiedDate": null,
+    "modifiedByUser": null,
+    "name": "Appointment Reminder",
+    "body": "This is a reminder of your appointment at [Company.name] on [Appointment.startDateFormatted] @ [Appointment.startTimeFormatted]. Reply: [TwilioSettings.confirmCancelOptions], [TwilioSettings.optOutOption]. Call to change [Company.phoneNumberFormatted]",
+    "status": "A"
+}]
