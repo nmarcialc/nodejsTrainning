@@ -1,0 +1,12 @@
+{
+    "id": 9,
+    "version": 0,
+    "retailerId": "ee0c75dc",
+    "createdDate": 1459447576000,
+    "createdByUser": "",
+    "modifiedDate": null,
+    "modifiedByUser": null,
+    "phoneNumber": "111222333344444",
+    "accountSID": "fakeSID",
+    "authToken": "fakeToken"
+}

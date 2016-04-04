@@ -1,0 +1,51 @@
+[{
+    "id": 234,
+    "version": 0,
+    "retailerId": "ee0c75dc",
+    "createdDate": 1459358521000,
+    "createdByUser": "nosh",
+    "modifiedDate": null,
+    "modifiedByUser": null,
+    "description": "Billboard",
+    "status": "A"
+}, {
+    "id": 232,
+    "version": 0,
+    "retailerId": "ee0c75dc",
+    "createdDate": 1459353698000,
+    "createdByUser": "",
+    "modifiedDate": null,
+    "modifiedByUser": null,
+    "description": "Bridal Show",
+    "status": "A"
+}, {
+    "id": 231,
+    "version": 0,
+    "retailerId": "ee0c75dc",
+    "createdDate": 1459353698000,
+    "createdByUser": "",
+    "modifiedDate": null,
+    "modifiedByUser": null,
+    "description": "Internet",
+    "status": "A"
+}, {
+    "id": 233,
+    "version": 0,
+    "retailerId": "ee0c75dc",
+    "createdDate": 1459353698000,
+    "createdByUser": "",
+    "modifiedDate": null,
+    "modifiedByUser": null,
+    "description": "Referral",
+    "status": "A"
+}, {
+    "id": 230,
+    "version": 0,
+    "retailerId": "ee0c75dc",
+    "createdDate": 1459353698000,
+    "createdByUser": "",
+    "modifiedDate": null,
+    "modifiedByUser": null,
+    "description": "Word of Mouth",
+    "status": "A"
+}]

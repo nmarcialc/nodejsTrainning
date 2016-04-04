@@ -1,0 +1,46 @@
+/*TODO manage permissions array*/
+[{
+    "id": 333,
+    "version": 0,
+    "retailerId": "ee0c75dc",
+    "createdDate": 1459353698000,
+    "createdByUser": "",
+    "modifiedDate": null,
+    "modifiedByUser": null,
+    "description": "Administrator",
+    "status": "A",
+    "permissions": null
+}, {
+    "id": 335,
+    "version": 0,
+    "retailerId": "ee0c75dc",
+    "createdDate": 1459353698000,
+    "createdByUser": "",
+    "modifiedDate": null,
+    "modifiedByUser": null,
+    "description": "Receptionist",
+    "status": "A",
+    "permissions": null
+}, {
+    "id": 334,
+    "version": 0,
+    "retailerId": "ee0c75dc",
+    "createdDate": 1459353698000,
+    "createdByUser": "",
+    "modifiedDate": null,
+    "modifiedByUser": null,
+    "description": "Sales Consultant",
+    "status": "A",
+    "permissions": null
+}, {
+    "id": 336,
+    "version": 0,
+    "retailerId": "ee0c75dc",
+    "createdDate": 1459353698000,
+    "createdByUser": "",
+    "modifiedDate": null,
+    "modifiedByUser": null,
+    "description": "Seamstress",
+    "status": "A",
+    "permissions": null
+}]

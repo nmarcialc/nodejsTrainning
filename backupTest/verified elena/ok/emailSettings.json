@@ -1,0 +1,15 @@
+{
+    "id": 34,
+    "version": 0,
+    "retailerId": "ee0c75dc",
+    "createdDate": 1459353698000,
+    "createdByUser": "",
+    "modifiedDate": null,
+    "modifiedByUser": null,
+    "smtpHost": null,
+    "smtpUserName": null,
+    "smtpPassword": null,
+    "smtpPort": null,
+    "encryptionTypeId": null,
+    "customSettings": false
+}

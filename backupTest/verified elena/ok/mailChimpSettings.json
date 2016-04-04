@@ -1,0 +1,13 @@
+{
+    "id": 49,
+    "version": 3,
+    "retailerId": "ee0c75dc",
+    "createdDate": 1459353698000,
+    "createdByUser": "nosh",
+    "modifiedDate": null,
+    "modifiedByUser": null,
+    "apiKey": "84049cc04b9c9d3450f8db1b24552387-us13",
+    "doubleOptIn": false,
+    "sendNotify": true,
+    "sendGoodbye": false
+}

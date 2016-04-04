@@ -1,0 +1,7 @@
+{
+    "errors": [{
+        "code": "error.serverError",
+        "message": "null: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: \"{employeeId}\""
+    }],
+    "fieldErrors": {}
+}

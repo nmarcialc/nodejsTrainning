@@ -1,0 +1,40 @@
+[{
+    "id": 63,
+    "version": 0,
+    "retailerId": "ee0c75dc",
+    "createdDate": 1459359542000,
+    "createdByUser": "nosh",
+    "modifiedDate": 1459359542000,
+    "modifiedByUser": "nosh",
+    "startDateTime": 1458838800000,
+    "endDateTime": 1458867600000,
+    "startDate": null,
+    "endDate": null,
+    "comment": "Holy week"
+}, {
+    "id": 64,
+    "version": 0,
+    "retailerId": "ee0c75dc",
+    "createdDate": 1459359546000,
+    "createdByUser": "nosh",
+    "modifiedDate": 1459359546000,
+    "modifiedByUser": "nosh",
+    "startDateTime": 1458925200000,
+    "endDateTime": 1458954000000,
+    "startDate": null,
+    "endDate": null,
+    "comment": "Holy week"
+}, {
+    "id": 65,
+    "version": 0,
+    "retailerId": "ee0c75dc",
+    "createdDate": 1459359552000,
+    "createdByUser": "nosh",
+    "modifiedDate": 1459359552000,
+    "modifiedByUser": "nosh",
+    "startDateTime": 1459011600000,
+    "endDateTime": 1459026000000,
+    "startDate": null,
+    "endDate": null,
+    "comment": "Holy week"
+}]

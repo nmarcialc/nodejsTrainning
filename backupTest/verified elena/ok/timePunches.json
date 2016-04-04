@@ -1,0 +1,29 @@
+[{
+    "id": 43,
+    "version": 1,
+    "retailerId": "ee0c75dc",
+    "createdDate": 1459370724000,
+    "createdByUser": "nosh",
+    "modifiedDate": 1459441779000,
+    "modifiedByUser": "nosh",
+    "startDateTime": 1459370724000,
+    "endDateTime": 1459441779000,
+    "employeeId": 97,
+    "status": "C",
+    "startDate": null,
+    "endDate": null
+}, {
+    "id": 44,
+    "version": 0,
+    "retailerId": "ee0c75dc",
+    "createdDate": 1459442603000,
+    "createdByUser": "nosh",
+    "modifiedDate": null,
+    "modifiedByUser": null,
+    "startDateTime": 1459442603000,
+    "endDateTime": null,
+    "employeeId": 97,
+    "status": "O",
+    "startDate": null,
+    "endDate": null
+}]

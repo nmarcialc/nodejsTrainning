@@ -1,0 +1,34 @@
+[{
+    "id": 64,
+    "version": 1,
+    "retailerId": "ee0c75dc",
+    "createdDate": 1459372263000,
+    "createdByUser": "nosh",
+    "modifiedDate": 1459372263000,
+    "modifiedByUser": "nosh",
+    "vendorId": 57,
+    "name": "Small",
+    "sizes": null
+}, {
+    "id": 65,
+    "version": 0,
+    "retailerId": "ee0c75dc",
+    "createdDate": 1459372364000,
+    "createdByUser": "nosh",
+    "modifiedDate": 1459372364000,
+    "modifiedByUser": "nosh",
+    "vendorId": 57,
+    "name": "XSmall",
+    "sizes": null
+}, {
+    "id": 66,
+    "version": 0,
+    "retailerId": "ee0c75dc",
+    "createdDate": 1459372453000,
+    "createdByUser": "nosh",
+    "modifiedDate": 1459372453000,
+    "modifiedByUser": "nosh",
+    "vendorId": 57,
+    "name": "Medium",
+    "sizes": null
+}]

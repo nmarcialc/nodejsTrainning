@@ -1,0 +1,23 @@
+[{
+    "id": 32,
+    "version": 0,
+    "retailerId": "ee0c75dc",
+    "createdDate": 1459445718000,
+    "createdByUser": "",
+    "modifiedDate": null,
+    "modifiedByUser": null,
+    "fittingRoomId": 222,
+    "appointmentTypeId": 344,
+    "appointmentTypeDescription": "Chit-chat Appointment"
+}, {
+    "id": 33,
+    "version": 0,
+    "retailerId": "ee0c75dc",
+    "createdDate": 1459445732000,
+    "createdByUser": "",
+    "modifiedDate": null,
+    "modifiedByUser": null,
+    "fittingRoomId": 222,
+    "appointmentTypeId": 343,
+    "appointmentTypeDescription": "Other Appointment"
+}]
