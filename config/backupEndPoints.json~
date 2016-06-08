@@ -78,3 +78,9 @@
     {"name":"userPermissions","endpoint":"/bl-server/api/userPermissions/list","method":"POST"},
     {"name":"vendors","endpoint":"/bl-server/api/vendors/list","method":"POST"}
 ]
+
+
+
+
+
+
